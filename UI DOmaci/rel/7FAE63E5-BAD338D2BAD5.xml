@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="UI Domaci" id="7FAE63E5-3C90-F47A-38C3-BAD338D2BAD5" mainViewID="112FD32A-2E12-FC78-EA33-587BD687C982">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 12:37:18 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71EBD980-93A9-DFBF-6795-48BD9AE24CF4" name="Direktor">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:34:17 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="director_id" id="88BA441A-DC3D-C9C2-D440-F4775BB910A2">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:47:59 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="5DF0CA88-EA1C-DCE7-AE0B-DE8C98154894">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:47:59 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="DAEECEAF-37F4-B797-D27C-060E45A55B05">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:47:59 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hospotal_id" id="5F4E9F0F-B6A6-0F4E-20E2-22854934AD8E">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:55:02 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="640286EC-9C5D-9C0A-0B29-3746746A5FDC" name="Director_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:48:24 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88BA441A-DC3D-C9C2-D440-F4775BB910A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

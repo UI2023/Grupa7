@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A446B593-7F60-A22F-C8D8-E29E73B761C6" name="Lek">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-24 12:07:50 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lek_id" id="EB5768F8-E4D9-595B-2BBC-79926D73C8A5">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-24 12:08:13 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_leka" id="C435CE2E-D33E-3A5F-C468-2216E78EC73C">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-24 12:08:13 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EA84771-650B-1DE9-0FD4-7E16E0D31D3B" name="Lek_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-24 12:08:31 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB5768F8-E4D9-595B-2BBC-79926D73C8A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

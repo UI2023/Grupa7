@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="252E60AF-F189-9DA7-6BBF-72EB1CC8F5C9" name="Bolnica">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 12:48:59 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hostpital_id" id="A14ED1D6-15C6-E113-B505-2FFAC7773084">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:02:51 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hospital_name" id="51CE28CB-7088-08C5-3DBA-944BED8612C0">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:02:51 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doctors" id="9E26B43E-3578-AECC-A1B2-DCA1A1A63312">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:03:30 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medical_staff" id="A3DF1B4E-BC49-83FD-9421-4BB3FABC2DC7">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:03:55 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rooms" id="7498A255-5739-F35C-26B9-89E6E8DC2277">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:04:05 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Facilities_facilitie_id" id="E23ADB23-0719-BC07-DE99-40CB8766DD87">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:43:04 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72E88435-FC79-B747-E743-75BD7E05FA82" referredColumn="167C5615-BA31-3FB9-4C74-0A05E51263D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB9A0AD0-65D0-62C6-5505-CF30234793D1" name="Hospital_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:02:51 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A14ED1D6-15C6-E113-B505-2FFAC7773084"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5445798-AB9E-AAEC-C78D-8D2F1517FE16" name="Hospital_Facilities_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:43:04 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E23ADB23-0719-BC07-DE99-40CB8766DD87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

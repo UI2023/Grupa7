@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F69AA1BD-30FD-766C-C0DD-C071C239DEE4" name="Operaciona_soba">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 12:48:55 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="operation_room_id" id="247600D1-D9A1-615B-86FA-98F6481D8426">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:40:09 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="purpose" id="0F6C6F12-417B-BF85-E7F9-893B61AD437B">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:40:09 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Room_Room_number" id="ED0C1772-FCD9-E5C2-1CD5-1218E92A6A63">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:41:26 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8D01350-E71E-4DEC-2160-6F74BCB2C911" referredColumn="A56123D6-907C-64BA-ACFC-2A8F15FE9439"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0AD2C055-7D01-AE18-DC0F-F0E3E8A4D45C" name="Operation_room_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:40:09 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="247600D1-D9A1-615B-86FA-98F6481D8426"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55131649-8834-2E1C-B68F-426994A87C5B" name="Operation_room_Room_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:41:26 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED0C1772-FCD9-E5C2-1CD5-1218E92A6A63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5B57E37-181D-298C-D3C0-2E3B00952876" name="Apoteka">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:32:08 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pharmacy_id" id="D6786E5A-C105-FC7F-BC33-8C70F3B29894">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:44:27 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pharmacy_name" id="9677DD57-3098-2447-2873-EE7BAE68D4D3">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:44:27 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Facilities_facilitie_id" id="78650FEA-B7F2-F41C-4D06-39A92B3F86CE">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:37:15 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DE336D7-652A-2567-12D0-8FBE3C6C1843" referredColumn="167C5615-BA31-3FB9-4C74-0A05E51263D6"/>
+</associations>
+</Column>
+<Column name="Lek_lek_id" id="CEFBA241-0142-EC92-B575-E2808C652C38">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-24 12:08:35 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CFCDED4-6617-CBAF-AF59-D67F283ED35B" referredColumn="EB5768F8-E4D9-595B-2BBC-79926D73C8A5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F56E0BB-ED07-D39E-F0B3-3455DA28C193" name="Pharmacy_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:44:27 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6786E5A-C105-FC7F-BC33-8C70F3B29894"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A0D3CCB-1523-07BF-C8D2-9BBF52C08AEF" name="Pharmacy_Facilities_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:37:15 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78650FEA-B7F2-F41C-4D06-39A92B3F86CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09DE76D4-80A2-B89B-9BB7-F838EECEFA78" name="Apoteka_Lek_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-24 12:08:35 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEFBA241-0142-EC92-B575-E2808C652C38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

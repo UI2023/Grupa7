@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BDCD453-AEB8-E418-E568-32D020183718" name="Istorija_rada">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:07:06 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="work_id" id="2E803429-323D-7CF3-DE36-10415CFA7C82">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:12:05 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pay" id="90FA969D-CE82-F50C-99EE-62E89A16266D">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:12:05 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_day" id="A7252F74-732C-27F8-C74B-B8EEA29FA14E">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:12:05 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_day" id="BB4AA228-A3E9-438D-FD94-057D88EC118C">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:12:05 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person_person_id" id="CB70861F-84DF-19AD-B54E-D7B1E6344206">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:14:04 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E56CDF19-A589-7C78-8240-CFF3739C57C7" referredColumn="D5A6E847-7832-B361-21A0-F43267729A09"/>
+</associations>
+</Column>
+<Column name="Hospital_hostpital_id" id="49207C3D-B1B7-058C-696A-0C1FCF76E61A">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:14:22 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF64CAC0-FBE9-022C-67B9-4AEDDF15BAAA" referredColumn="A14ED1D6-15C6-E113-B505-2FFAC7773084"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53B67F12-3296-A258-AFE3-1594D0149361" name="Work_history_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:12:05 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E803429-323D-7CF3-DE36-10415CFA7C82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BABC4A7-24EE-6AA5-8ABE-3D8AF777FADF" name="Work_history_Person_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:14:04 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB70861F-84DF-19AD-B54E-D7B1E6344206"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE9C62CD-420D-087C-FF17-1D276778D654" name="Work_history_Hospital_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:14:22 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49207C3D-B1B7-058C-696A-0C1FCF76E61A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

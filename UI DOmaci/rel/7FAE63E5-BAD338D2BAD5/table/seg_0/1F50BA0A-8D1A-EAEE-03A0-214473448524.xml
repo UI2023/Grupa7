@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F50BA0A-8D1A-EAEE-03A0-214473448524" name="Krevet">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:31:53 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bed_id" id="FBB04E7B-5AD2-7BD3-90C7-AFFEA730C7D1">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:36:39 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Room_Room_number" id="1D866FDB-745E-A28C-D8DB-7202C61E0076">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:40:45 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Room_Room_number1" id="6EF92F15-EBE1-5466-84DA-A781705B5570">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:41:31 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="122D7D24-9F51-891A-5F96-0E9882F6363D" referredColumn="A56123D6-907C-64BA-ACFC-2A8F15FE9439"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0016BF85-0C48-C5B9-DC1C-C81A80565D85" name="Bed_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:36:47 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBB04E7B-5AD2-7BD3-90C7-AFFEA730C7D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C8AF3F1-3479-C664-386B-FAF79E8CAED9" name="Bed_Room_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:41:31 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF92F15-EBE1-5466-84DA-A781705B5570"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

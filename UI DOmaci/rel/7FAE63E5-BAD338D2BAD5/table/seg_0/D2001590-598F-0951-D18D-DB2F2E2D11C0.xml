@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2001590-598F-0951-D18D-DB2F2E2D11C0" name="Klinicki_centar">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 14:40:08 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="clinical_center_id" id="2C1E2F7E-BB69-865F-F64C-0140048CC3FC">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:44:18 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Director_director_id" id="C92A6AA4-B191-8566-B7C1-7F6799FC520D">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:44:23 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B84AA6E-2ED8-DCC2-3812-AAC9379612BB" referredColumn="88BA441A-DC3D-C9C2-D440-F4775BB910A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28019409-B0C5-C777-DBAA-23273CDFC9F9" name="Clinical_centar_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:44:18 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C1E2F7E-BB69-865F-F64C-0140048CC3FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C2F3A3D-A6D5-F83F-F26F-6D8242DECE3B" name="Clinical_centar_Director_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:44:23 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C92A6AA4-B191-8566-B7C1-7F6799FC520D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1BA6672-34F5-2CBE-56D2-0235F59B63F0" name="Pacijent">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 12:46:25 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="patient_id" id="C769D8C3-CE98-B779-F610-0A0C7CFEE0D5">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:23:29 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person_person_id" id="AFAD4D39-84B0-A2B0-904D-2F550D0BB36B">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:05:09 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EA06CF3-C1E7-2DF4-8472-7132FE1D1FB4" referredColumn="D5A6E847-7832-B361-21A0-F43267729A09"/>
+</associations>
+</Column>
+<Column name="File_file_id" id="8F20543E-3263-F5A7-8595-1D6700C25C0A">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:05:34 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D44396E4-13EB-75BA-7D0F-844F4FD237CA" referredColumn="4310EAD9-9FF4-6E80-EF7F-DD198242BED1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="359FBA72-19BC-E720-71B1-275197E234D6" name="Patient_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:23:29 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C769D8C3-CE98-B779-F610-0A0C7CFEE0D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB623872-8437-1300-59FC-191453FADA0B" name="Patient_Person_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:05:09 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFAD4D39-84B0-A2B0-904D-2F550D0BB36B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CE5800A-4700-BF0C-20C6-CD2D1E415560" name="Patient_File_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:05:34 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F20543E-3263-F5A7-8595-1D6700C25C0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

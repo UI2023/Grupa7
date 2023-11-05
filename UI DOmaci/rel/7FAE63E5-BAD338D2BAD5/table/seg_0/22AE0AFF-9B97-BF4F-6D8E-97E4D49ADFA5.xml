@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22AE0AFF-9B97-BF4F-6D8E-97E4D49ADFA5" name="Soba">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 12:48:52 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Room_number" id="A56123D6-907C-64BA-ACFC-2A8F15FE9439">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 12:53:45 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Floor_floor_id" id="8E05367D-0AA7-214E-07E3-3B7443DEEE66">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:41:23 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="992F1065-9496-B7F2-590B-383858432684" referredColumn="3D74757A-9815-E72C-F4FE-A27DA10E02FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E75B2870-5674-1DC1-94EF-F5351E56E039" name="Room_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:40:26 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A56123D6-907C-64BA-ACFC-2A8F15FE9439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F40CA518-210E-6F52-6462-40D51DF0EEAE" name="Room_Floor_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-07 12:41:23 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E05367D-0AA7-214E-07E3-3B7443DEEE66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6053AA3-8BCB-484C-29B1-CE4F5B82D5EC" name="Doktor">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 12:49:01 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lekar_id" id="9EE0C981-D2AE-7E4F-7485-92BC14AC52A0">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:06:59 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person_person_id" id="C3921199-1F06-8878-4E2A-7ABA4A2FE193">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:04:17 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F555CBA8-6FE8-85F6-2168-CA70DE01B58E" referredColumn="D5A6E847-7832-B361-21A0-F43267729A09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAA7835E-8A2A-9FFC-EC98-A53708BB50E1" name="Doctor_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 13:06:59 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EE0C981-D2AE-7E4F-7485-92BC14AC52A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B78020BB-56C5-B7F4-B0A2-5EF8B9C91303" name="Doctor_Person_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-23 20:04:17 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3921199-1F06-8878-4E2A-7ABA4A2FE193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
