@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="UI DOmaci" id="C168E03D-4C16-3BB2-7590-798CFD6113B8" version="3.5">
+<createdBy>stefa</createdBy>
+<createdTime>2023-10-06 12:37:15 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C168E03D-4C16-3BB2-7590-798CFD6113B8</designId>
+</OSDM_Design>
