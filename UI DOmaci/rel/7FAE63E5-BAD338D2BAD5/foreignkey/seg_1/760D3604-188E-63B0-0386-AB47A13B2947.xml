@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="760D3604-188E-63B0-0386-AB47A13B2947" containerWithKeyObject="D969E41C-7852-CBED-2107-7B2245802184" localFKIndex="175AE58A-A600-4858-3460-4FB09F48B4C7" name="Lekovi_izdati_u_proceduri_Lek_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:18:17 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<referredTableLongName>Lek</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A446B593-7F60-A22F-C8D8-E29E73B761C6</referredTableID>
+<keyObject>0EA84771-650B-1DE9-0FD4-7E16E0D31D3B</keyObject>
+<referredKeyID>0EA84771-650B-1DE9-0FD4-7E16E0D31D3B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>lek_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

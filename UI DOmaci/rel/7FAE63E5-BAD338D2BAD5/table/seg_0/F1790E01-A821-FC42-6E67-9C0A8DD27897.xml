@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1790E01-A821-FC42-6E67-9C0A8DD27897" name="stavka_racuna_izvr_procedure">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-11 21:42:03 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_63</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nap_izvrs_proc_id" id="54D7F19E-0DD1-E1CA-52CE-38CE5C9483A5">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-11 21:42:33 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vreme" id="20EB78D6-EAE7-CF7C-EB09-E3B9F98E471B">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-11 21:43:53 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pokrice_osiguranja" id="15522390-B5A0-19B5-59CC-713B8C1696AB">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-11 21:43:53 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ukupna_cena" id="3CAB184C-2E85-4373-236D-AFB31169E22B">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:47:35 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Izvrsenje_procedure_id_izvrsenja" id="C67ED17E-4C06-C188-6B3C-18CCFC51E5EF">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:47:47 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08EA1B95-8A01-EEFD-AA38-550368EFAB53" referredColumn="A3FD10DE-4064-7790-6F52-FAB3CD29567D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F0336F9-1027-6DA7-887F-4E88B6482000" name="Naplata_izvrsenja_procedure_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-11 21:42:33 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54D7F19E-0DD1-E1CA-52CE-38CE5C9483A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC47A92E-6737-25FA-3585-E3252A8BA466" name="stavka_racuna_izvr_procedure_Izvrsenje_procedure_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:47:47 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C67ED17E-4C06-C188-6B3C-18CCFC51E5EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

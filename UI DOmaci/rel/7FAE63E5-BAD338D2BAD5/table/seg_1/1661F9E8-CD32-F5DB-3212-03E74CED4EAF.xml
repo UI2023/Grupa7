@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="778ABA2D-7698-DD96-3D71-95248D896C8B" name="Procedura">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-23 20:33:41 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="1661F9E8-CD32-F5DB-3212-03E74CED4EAF" name="tip_promene_st_materijala">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:06:40 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
-<ordsAlias>table_31</ordsAlias>
+<ordsAlias>table_74</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="procedura_id" id="EC960B4C-C3D4-2F13-96A0-92F1417EE112">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-23 20:37:01 UTC</createdTime>
+<Column name="promena_materijala_id" id="D3E08550-E07A-F64E-9160-25C7DD770D7D">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:07:23 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Opis" id="BBBB7893-2501-9083-95CF-3D5B9FCB1E89">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-23 20:37:01 UTC</createdTime>
+<Column name="naziv" id="13847777-ABC9-D965-DC93-0C23AF1AAE80">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:07:23 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -29,28 +29,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Cena_cenovnik_id" id="22FE0866-520D-5A49-2F8D-3CCE3ABCC0B3">
-<createdBy>stefa</createdBy>
-<createdTime>2023-12-04 22:11:22 UTC</createdTime>
+<Column name="opis" id="44CE1395-A622-5E8D-2E2C-8BC8BD6229BA">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:07:23 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="748704F6-CFD9-019A-85D8-A2C666409E48" name="Procedura_PK">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-23 20:37:01 UTC</createdTime>
+<ind_PK_UK id="F97633FF-E38A-BF1C-1612-D6B7FEAD7025" name="tip_promene_st_materijala_PK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:07:23 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EC960B4C-C3D4-2F13-96A0-92F1417EE112"/>
+<colUsage columnID="D3E08550-E07A-F64E-9160-25C7DD770D7D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

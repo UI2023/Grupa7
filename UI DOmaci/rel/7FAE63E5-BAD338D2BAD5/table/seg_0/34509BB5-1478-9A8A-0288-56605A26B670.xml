@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5B57E37-181D-298C-D3C0-2E3B00952876" name="Apoteka">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34509BB5-1478-9A8A-0288-56605A26B670" name="Nabavka_leka">
 <createdBy>stefa</createdBy>
-<createdTime>2023-10-06 13:32:08 UTC</createdTime>
+<createdTime>2023-12-11 22:00:25 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
-<ordsAlias>table_10</ordsAlias>
+<ordsAlias>table_68</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="pharmacy_id" id="D6786E5A-C105-FC7F-BC33-8C70F3B29894">
+<Column name="nabavka_id" id="BC2B342C-605D-8007-0DDB-3E9C6F0A404A">
 <createdBy>stefa</createdBy>
-<createdTime>2023-10-06 13:44:27 UTC</createdTime>
+<createdTime>2023-12-11 22:00:52 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,19 +18,31 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="pharmacy_name" id="9677DD57-3098-2447-2873-EE7BAE68D4D3">
+<Column name="datum_nabavke" id="AF58AB76-2E2E-73B3-6110-F391086B4DB1">
 <createdBy>stefa</createdBy>
-<createdTime>2023-10-06 13:44:27 UTC</createdTime>
+<createdTime>2023-12-11 22:00:52 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Facilities_facilitie_id" id="78650FEA-B7F2-F41C-4D06-39A92B3F86CE">
+<Column name="ukupna_cena" id="B3661D8D-42F1-BDFB-C2C9-30E75C60A83F">
 <createdBy>stefa</createdBy>
-<createdTime>2023-10-07 12:37:15 UTC</createdTime>
+<createdTime>2023-12-11 22:03:48 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bolnicko_skladiste_bolnicko_skladiste_id" id="FB73E0D9-3EB1-9880-6B80-A60599723560">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:08:31 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,30 +51,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1DE336D7-652A-2567-12D0-8FBE3C6C1843" referredColumn="167C5615-BA31-3FB9-4C74-0A05E51263D6"/>
+<colAssociation fkAssociation="B8226DDD-879F-831A-442E-5AD093B4B853" referredColumn="A149177B-C30D-E707-FA4A-396A157D0CB7"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2F56E0BB-ED07-D39E-F0B3-3455DA28C193" name="Pharmacy_PK">
+<ind_PK_UK id="FE9506BD-16AA-8634-49CD-79065D92AB65" name="Nabavka_PK">
 <createdBy>stefa</createdBy>
-<createdTime>2023-10-06 13:44:27 UTC</createdTime>
+<createdTime>2023-12-11 22:00:52 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D6786E5A-C105-FC7F-BC33-8C70F3B29894"/>
+<colUsage columnID="BC2B342C-605D-8007-0DDB-3E9C6F0A404A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8A0D3CCB-1523-07BF-C8D2-9BBF52C08AEF" name="Pharmacy_Facilities_FK">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-07 12:37:15 UTC</createdTime>
+<ind_PK_UK id="CD7825CE-F9F2-9F63-A466-5A36E9399C35" name="Nabavka_leka_Bolnicko_skladiste_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:08:31 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="78650FEA-B7F2-F41C-4D06-39A92B3F86CE"/>
+<colUsage columnID="FB73E0D9-3EB1-9880-6B80-A60599723560"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

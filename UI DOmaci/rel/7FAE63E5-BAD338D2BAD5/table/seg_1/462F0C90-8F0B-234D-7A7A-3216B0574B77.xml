@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="462F0C90-8F0B-234D-7A7A-3216B0574B77" name="Stavka_nabavke_materijala">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:11:27 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_76</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="st_nabavke_materijala_id" id="3F5DA178-30CC-E5F3-E1A1-569DCF6F4F88">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:12:02 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina" id="FDB021A7-6951-C018-397D-86C796363490">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:12:02 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Materijal_materijal_id" id="724FD09F-28B0-3340-ECF1-5935BE975CCD">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:12:06 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B51E71B-0A7F-EA8C-F1A8-BBD5F93C0B03" referredColumn="23C17F2B-B4F7-6C86-9F93-AD1723D70647"/>
+</associations>
+</Column>
+<Column name="Nabavka_materijala_nabavka_mat_id" id="1E120C94-F477-DA40-0947-529F51753E3D">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:12:10 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5E28B87-0FC7-3629-FA0A-00E69D956E8B" referredColumn="4F636DF8-4264-E81C-3C01-0C54B538AE6C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF6A9D93-0B7E-1DD0-3AD1-B57D23B80997" name="Stavka_nabavke_materijala_Materijal_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:12:06 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="724FD09F-28B0-3340-ECF1-5935BE975CCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFE36001-9239-E895-AE85-FA42F7597DE1" name="Stavka_nabavke_materijala_Nabavka_materijala_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:12:10 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E120C94-F477-DA40-0947-529F51753E3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="7C543392-BC4C-8934-D544-D0213E7F0753" containerWithKeyObject="32AB72DA-6F83-C08D-BA4C-B61D5292361B" localFKIndex="47BE73F0-0D91-5F34-7E63-76D6B597C96D" name="Stavke_racuna_stavka_racuna_izvr_procedure_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:49:08 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<referredTableLongName>stavka_racuna_izvr_procedure</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F1790E01-A821-FC42-6E67-9C0A8DD27897</referredTableID>
+<keyObject>3F0336F9-1027-6DA7-887F-4E88B6482000</keyObject>
+<referredKeyID>3F0336F9-1027-6DA7-887F-4E88B6482000</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nap_izvrs_proc_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

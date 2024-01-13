@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="DA50964E-BE1F-523A-1104-1A0D811167C4" containerWithKeyObject="B5A64522-B256-698D-7AE3-B5BF830FB191" localFKIndex="CCBE4976-6A9B-5997-7FE7-FF1EF5D2AABA" name="istorija_stanja_materijala_Bolnicko_skladiste_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:05:39 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<referredTableLongName>Bolnicko_skladiste</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BFB743C0-8661-8FE4-5634-955AE095CBF2</referredTableID>
+<keyObject>75A031EB-86DC-D251-49E3-6F8A41CD06FD</keyObject>
+<referredKeyID>75A031EB-86DC-D251-49E3-6F8A41CD06FD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>bolnicko_skladiste_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

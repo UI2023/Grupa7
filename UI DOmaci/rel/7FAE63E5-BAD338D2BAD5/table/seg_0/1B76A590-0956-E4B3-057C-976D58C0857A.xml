@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B76A590-0956-E4B3-057C-976D58C0857A" name="Osoba">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B76A590-0956-E4B3-057C-976D58C0857A" name="Zaposleni">
 <createdBy>stefa</createdBy>
 <createdTime>2023-10-23 19:19:04 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
@@ -73,16 +73,75 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_card" id="D233139B-639F-08FD-571D-6591C7208FDB">
+<Column name="pozicija_pozicija_id" id="9AB062FC-3A1B-4B42-3EF7-5A8335A617F4">
 <createdBy>stefa</createdBy>
-<createdTime>2023-10-23 19:21:30 UTC</createdTime>
+<createdTime>2023-11-13 22:18:42 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82A78441-6FE9-414D-CE28-946D399AEF18" referredColumn="6E07A010-F873-22D2-3C94-BE7606765C74"/>
+</associations>
+</Column>
+<Column name="Ugovor_ugovor_id" id="48EF5B2B-3157-3243-49AE-C999C568A922">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-13 22:20:56 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC1E8C49-F5CE-1D76-ED67-22E0D6536258" referredColumn="49B9DC2A-1C67-A41D-B10C-EB35732099BC"/>
+</associations>
+</Column>
+<Column name="Sertifikat_sertifikat_id" id="836E945B-9437-CAD3-2F7A-A59DE76DAD96">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-13 22:26:08 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC06755E-489C-1B14-B479-CA4D51C425A6" referredColumn="40C665C4-24BB-8116-197D-89B4F3D67C6E"/>
+</associations>
+</Column>
+<Column name="Odsustvo_odsustvo_id" id="0DAE7AE4-BFCD-F1B4-6551-8E3D8C1DCCDB">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-04 21:42:16 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08ACF52A-E1C3-A352-8807-27AEB86709E7" referredColumn="E530FDE4-A9B9-7DFD-E5D5-7B262865DE74"/>
+</associations>
+</Column>
+<Column name="Godisnji_odmor_godisnji_odmor_id" id="20FF45A9-AD99-DB12-2531-DE35A943194B">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-04 22:16:54 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DBDF12B-5E32-E441-7A0B-125F5111015C" referredColumn="447ADEB8-12F4-271F-5BB2-9433E54F1E9F"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -95,6 +154,56 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D5A6E847-7832-B361-21A0-F43267729A09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B671997-B45F-527A-3C45-3A70B99F4221" name="Zaposleni_pozicija_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-13 22:18:42 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AB062FC-3A1B-4B42-3EF7-5A8335A617F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10E9DAC9-D588-0F61-25A0-6F96EA5D12B2" name="Zaposleni_Ugovor_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-13 22:20:56 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48EF5B2B-3157-3243-49AE-C999C568A922"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B4C0695-F827-4678-1FC4-A31A2F937EB7" name="Zaposleni_Sertifikat_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-13 22:26:08 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="836E945B-9437-CAD3-2F7A-A59DE76DAD96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D643EFF2-42BE-02E9-CFAB-AA50C99AB673" name="Zaposleni_Odsustvo_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-04 21:42:16 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DAE7AE4-BFCD-F1B4-6551-8E3D8C1DCCDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="581E3266-3BE8-A609-2EE8-6A88C8AF12C0" name="Zaposleni_Godisnji_odmor_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-04 22:16:54 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20FF45A9-AD99-DB12-2531-DE35A943194B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

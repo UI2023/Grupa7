@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="32AB72DA-6F83-C08D-BA4C-B61D5292361B" name="Stavke_racuna">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:48:17 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_70</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stavke_racuna_id" id="755C4880-4BDD-A8FD-A58F-E56CF347E487">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:48:48 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Racun_racun_id" id="FB01B562-C3C6-68AF-5E96-2980BCE57B0A">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:49:03 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="318711BA-2F0A-D783-7A52-A662D05AFE93" referredColumn="776A509F-CE7A-EF74-FBE5-29644C851F47"/>
+</associations>
+</Column>
+<Column name="stavka_racuna_izvr_procedure_nap_izvrs_proc_id" id="AAFDA74A-3179-D8D2-47C3-018A9AC39EC4">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:49:08 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C543392-BC4C-8934-D544-D0213E7F0753" referredColumn="54D7F19E-0DD1-E1CA-52CE-38CE5C9483A5"/>
+</associations>
+</Column>
+<Column name="Stavka_racuna_lekovi_terapija_naplata_lekova_id" id="AA3EEB8B-31C0-FDA8-80CA-2587710D9901">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:49:14 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="540D9394-63E6-9115-AFEF-C575E9E51E3A" referredColumn="380AB40C-82AA-508C-6F05-804AA9D00D2B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C8EC7EE-382C-7245-3F62-70E1868A61BD" name="Stavke_racuna_PK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:48:48 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="755C4880-4BDD-A8FD-A58F-E56CF347E487"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6259A841-8AF7-08D1-4BD7-E7BBF7193578" name="Stavke_racuna_Racun_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:49:03 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB01B562-C3C6-68AF-5E96-2980BCE57B0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47BE73F0-0D91-5F34-7E63-76D6B597C96D" name="Stavke_racuna_stavka_racuna_izvr_procedure_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:49:08 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAFDA74A-3179-D8D2-47C3-018A9AC39EC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6CE9D11-5F4B-4CCE-6F2B-3A0F349524EE" name="Stavke_racuna_Stavka_racuna_lekovi_terapija_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:49:14 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA3EEB8B-31C0-FDA8-80CA-2587710D9901"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

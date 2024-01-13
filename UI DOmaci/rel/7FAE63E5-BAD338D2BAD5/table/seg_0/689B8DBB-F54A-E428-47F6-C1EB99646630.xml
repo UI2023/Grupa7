@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="689B8DBB-F54A-E428-47F6-C1EB99646630" name="Istorija_promene_stanja">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-11 21:56:26 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_65</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="istorija_promene_leka_id" id="67149564-AAF9-806C-477C-62D60CD20BDC">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:54:47 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_promene" id="41235C8C-2084-0DE5-07E3-7C9A273109BC">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:54:47 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="novo_stanje" id="E7E00FB2-AC4E-4657-B621-EFBCE5AC95BC">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:54:47 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rezervisano" id="A36FA15F-7DB2-2BBE-3BD6-767352250659">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:54:47 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lek_lek_id" id="BFF388CE-A8AF-3F6E-5BB4-A8D4C804B862">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:55:24 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD45B279-EC16-A45F-2207-10CA49BB5FA0" referredColumn="EB5768F8-E4D9-595B-2BBC-79926D73C8A5"/>
+</associations>
+</Column>
+<Column name="tip_promene_stanja_leka_tip_promene_id" id="5AD163DB-033F-9DD1-753E-B8006E033F6A">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:57:09 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F23997F-D4AD-BB06-E648-816BC0F6FE89" referredColumn="8343E872-36E6-7227-8770-D6FFB1694430"/>
+</associations>
+</Column>
+<Column name="prethodno_stanje" id="52AEE45E-9609-3982-5947-0351021BEAFF">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:57:41 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bolnicko_skladiste_bolnicko_skladiste_id" id="6F1F7F1A-BA0A-86B7-8EFC-9577A34D804E">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:01:38 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9222931-D9DC-CFDE-6972-708F18987B4D" referredColumn="A149177B-C30D-E707-FA4A-396A157D0CB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BBBD2FD-2E32-A96E-C3AC-BC1B09207D38" name="Trenutno_stranje_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-11 21:56:57 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67149564-AAF9-806C-477C-62D60CD20BDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ED06048-2360-E2DE-2A21-85A6C32C92B1" name="Istorija_promene_stanja_Lek_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:55:24 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFF388CE-A8AF-3F6E-5BB4-A8D4C804B862"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C651486-43F0-CAD9-F5D6-AA9825F30C30" name="Istorija_promene_stanja_tip_promene_stanja_leka_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:57:09 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AD163DB-033F-9DD1-753E-B8006E033F6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D80525FA-19D7-473E-A145-D5411E30B864" name="Istorija_promene_stanja_Bolnicko_skladiste_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:01:38 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F1F7F1A-BA0A-86B7-8EFC-9577A34D804E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

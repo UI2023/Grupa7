@@ -18,20 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Person_person_id" id="AFAD4D39-84B0-A2B0-904D-2F550D0BB36B">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-23 20:05:09 UTC</createdTime>
-<ownerDesignName>UI DOmaci</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="5EA06CF3-C1E7-2DF4-8472-7132FE1D1FB4" referredColumn="D5A6E847-7832-B361-21A0-F43267729A09"/>
-</associations>
-</Column>
 <Column name="File_file_id" id="8F20543E-3263-F5A7-8595-1D6700C25C0A">
 <createdBy>stefa</createdBy>
 <createdTime>2023-10-23 20:05:34 UTC</createdTime>
@@ -44,6 +30,103 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="D44396E4-13EB-75BA-7D0F-844F4FD237CA" referredColumn="4310EAD9-9FF4-6E80-EF7F-DD198242BED1"/>
+</associations>
+</Column>
+<Column name="ime" id="7BC86FEC-92C3-C715-AC73-55C4E65EF0EF">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-06 21:10:04 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="D7569A07-D6E1-DCAE-D720-5692BB4BC03E">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-06 21:10:04 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_telefona" id="8C5DAF8F-6A69-4B11-57C6-58BF13EABBB4">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-06 21:10:04 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="83988FD5-0888-2864-BB10-A6EC8F2F44EE">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-06 21:10:04 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jmng" id="4FC0A374-AF8E-6AF4-FE73-1C8B085C3DE4">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-06 21:10:04 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zdravstvena_knjizica_knjizica_id" id="3F49C592-7868-0E70-EDA8-0A3014F64D10">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-06 22:06:45 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69E473F7-E57D-0539-4C16-EAA53CD2EEFE" referredColumn="F95ACF3F-E5E7-FD4D-D48E-639C87312103"/>
+</associations>
+</Column>
+<Column name="Polisa_osiguranja_polisa_id" id="01B6150A-272C-78B7-0196-894C1E9B2E1C">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-06 22:06:48 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C12DF18B-5418-084E-AAD3-96F5BD5B0090" referredColumn="96CB61F9-F934-40B6-D5EE-EFF1BFD66BF7"/>
+</associations>
+</Column>
+<Column name="Terapija_terapija_id" id="67A1F4F4-0DBF-1E5F-5178-E2FEC8B68103">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-13 22:00:02 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A43259A1-CDD5-06B4-E639-A076B6165E39" referredColumn="891DB041-2AE7-0CCA-23C3-1F904D8FDB26"/>
 </associations>
 </Column>
 </columns>
@@ -59,16 +142,6 @@
 <colUsage columnID="C769D8C3-CE98-B779-F610-0A0C7CFEE0D5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CB623872-8437-1300-59FC-191453FADA0B" name="Patient_Person_FK">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-23 20:05:09 UTC</createdTime>
-<ownerDesignName>UI DOmaci</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="AFAD4D39-84B0-A2B0-904D-2F550D0BB36B"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="0CE5800A-4700-BF0C-20C6-CD2D1E415560" name="Patient_File_FK">
 <createdBy>stefa</createdBy>
 <createdTime>2023-10-23 20:05:34 UTC</createdTime>
@@ -77,6 +150,36 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8F20543E-3263-F5A7-8595-1D6700C25C0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E66E8A4-3118-57F7-B87E-47F514977ECA" name="Pacijent_Zdravstvena_knjizica_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-06 22:06:45 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F49C592-7868-0E70-EDA8-0A3014F64D10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43276C03-2B3F-D3CE-2A13-08FD9355346E" name="Pacijent_Polisa_osiguranja_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-06 22:06:48 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01B6150A-272C-78B7-0196-894C1E9B2E1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1D08BB3-9CAD-7AF9-0280-CA76A6BDBF16" name="Pacijent_Terapija_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-13 22:00:02 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67A1F4F4-0DBF-1E5F-5178-E2FEC8B68103"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

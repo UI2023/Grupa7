@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCCBE500-38E5-85AE-164C-F14B4A0B95B8" name="Objekti">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-06 14:40:28 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B625B6A-54B1-536E-95AA-AAC8505607A1" name="Lekovi_izdati_u_terapiji">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:29:45 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
-<ordsAlias>table_15</ordsAlias>
+<ordsAlias>table_69</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="facilitie_id" id="167C5615-BA31-3FB9-4C74-0A05E51263D6">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-07 12:37:05 UTC</createdTime>
+<Column name="lekovi_terapija_id" id="32FF0CDA-5C68-769D-4E6C-464F6B4E912E">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:31:34 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="faciliti_name" id="C5F22974-23DE-9DAC-A0CF-8148E972A730">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-07 12:37:05 UTC</createdTime>
+<Column name="doza" id="9866BB7D-694A-0A13-5419-559590BA84E3">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:31:34 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -29,22 +29,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Clinical_centar_clinical_center_id" id="21678BC6-F999-EF0A-EE1E-9994BFFCEE9A">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-07 12:44:27 UTC</createdTime>
-<ownerDesignName>UI DOmaci</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C31CB76A-F4D8-5B49-6542-78462CB3C8B8" referredColumn="2C1E2F7E-BB69-865F-F64C-0140048CC3FC"/>
-</associations>
-</Column>
-<Column name="Tip_objekta_tip_obekta_id" id="11738B91-93E2-5B15-C235-A8B7024BB8E3">
-<createdBy>stefa</createdBy>
-<createdTime>2023-11-06 21:11:01 UTC</createdTime>
+<Column name="Terapija_terapija_id" id="A7580517-26FB-C05F-FC1E-357740DD9093">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:32:50 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,40 +40,54 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F9F462F1-19C3-CFD4-E529-BC7C12F16472" referredColumn="84EB2B10-CE47-C442-2AEE-9B6AC040B0D6"/>
+<colAssociation fkAssociation="A2E9BE26-E13F-4F6A-612A-0C6064E25425" referredColumn="891DB041-2AE7-0CCA-23C3-1F904D8FDB26"/>
+</associations>
+</Column>
+<Column name="Lek_lek_id" id="5D8402EF-6B62-43D2-E72F-CCAADC7646D3">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:32:59 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72C29CC3-2671-F5A1-F97B-243F2CED1464" referredColumn="EB5768F8-E4D9-595B-2BBC-79926D73C8A5"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B6F6B8B3-6397-C8F9-475C-3FFAA8C21B33" name="Facilities_PK">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-07 12:37:05 UTC</createdTime>
+<ind_PK_UK id="6F8A4C85-F0F0-7C53-252E-A9F6430306F1" name="Lekovi_izdati_u_terapiji_PK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:31:34 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="167C5615-BA31-3FB9-4C74-0A05E51263D6"/>
+<colUsage columnID="32FF0CDA-5C68-769D-4E6C-464F6B4E912E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A7AB23C7-2855-2B72-716F-16E89C4D640E" name="Facilities_Clinical_centar_FK">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-07 12:44:27 UTC</createdTime>
+<ind_PK_UK id="F9FE8B1E-AB88-B46E-C8A6-36A53E69BB44" name="Lekovi_izdati_u_terapiji_Terapija_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:32:50 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="21678BC6-F999-EF0A-EE1E-9994BFFCEE9A"/>
+<colUsage columnID="A7580517-26FB-C05F-FC1E-357740DD9093"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D0834A48-E3F1-2A9D-CE1D-F16D054EF07C" name="Objekti_Tip_objekta_FK">
-<createdBy>stefa</createdBy>
-<createdTime>2023-11-06 21:11:01 UTC</createdTime>
+<ind_PK_UK id="1ACB2F86-C81E-9F6C-077A-2EACA1A5AEAE" name="Lekovi_izdati_u_terapiji_Lek_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:32:59 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="11738B91-93E2-5B15-C235-A8B7024BB8E3"/>
+<colUsage columnID="5D8402EF-6B62-43D2-E72F-CCAADC7646D3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

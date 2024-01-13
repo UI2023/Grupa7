@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="B594C5D5-E6BE-CE3A-4B12-53EC832DCE9B" containerWithKeyObject="B5A64522-B256-698D-7AE3-B5BF830FB191" localFKIndex="EC11A2CC-681B-3D4A-DA9E-03AA2C33F3B4" name="istorija_stanja_materijala_tip_promene_st_materijala_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:07:27 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<referredTableLongName>tip_promene_st_materijala</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1661F9E8-CD32-F5DB-3212-03E74CED4EAF</referredTableID>
+<keyObject>F97633FF-E38A-BF1C-1612-D6B7FEAD7025</keyObject>
+<referredKeyID>F97633FF-E38A-BF1C-1612-D6B7FEAD7025</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>promena_materijala_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

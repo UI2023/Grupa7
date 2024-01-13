@@ -27,9 +27,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="4B84AA6E-2ED8-DCC2-3812-AAC9379612BB" referredColumn="88BA441A-DC3D-C9C2-D440-F4775BB910A2"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -42,16 +39,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2C1E2F7E-BB69-865F-F64C-0140048CC3FC"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="0C2F3A3D-A6D5-F83F-F26F-6D8242DECE3B" name="Clinical_centar_Director_FK">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-07 12:44:23 UTC</createdTime>
-<ownerDesignName>UI DOmaci</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C92A6AA4-B191-8566-B7C1-7F6799FC520D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

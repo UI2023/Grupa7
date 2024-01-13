@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="2F23997F-D4AD-BB06-E648-816BC0F6FE89" containerWithKeyObject="689B8DBB-F54A-E428-47F6-C1EB99646630" localFKIndex="0C651486-43F0-CAD9-F5D6-AA9825F30C30" name="Istorija_promene_stanja_tip_promene_stanja_leka_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:57:09 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<referredTableLongName>tip_promene_stanja_leka</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0FAF72AD-5302-FF94-CC9A-DB0E8448F9C9</referredTableID>
+<keyObject>328544C6-3C3F-09E4-C1D3-F0032E561AC0</keyObject>
+<referredKeyID>328544C6-3C3F-09E4-C1D3-F0032E561AC0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tip_promene_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

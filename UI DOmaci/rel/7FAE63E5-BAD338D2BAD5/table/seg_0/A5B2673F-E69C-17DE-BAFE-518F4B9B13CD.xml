@@ -18,14 +18,25 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="medicine" id="ACB46AD0-154A-6349-10DA-37E76A2BD9F4">
-<createdBy>stefa</createdBy>
-<createdTime>2023-10-23 20:21:57 UTC</createdTime>
+<Column name="pocetak_uzimanja" id="85EC9E53-2AC2-704C-4C4C-0BDC21190A4C">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:32:42 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kraj_uzimanja" id="89BBB651-6801-FBB5-8A52-35E0CCEC966F">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:32:42 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

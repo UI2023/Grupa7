@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="D44C25C1-02D8-6C60-4E91-3A42777D34E5" containerWithKeyObject="1BA8F4AF-E0F9-9BC5-AE17-CB1DB1D029ED" localFKIndex="E5E97470-FD78-E7C6-FF60-FFF0800CF649" name="Naplata_lekova_iz_terapije_Lekovi_izdati_u_terapiji_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:41:28 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<referredTableLongName>Lekovi_izdati_u_terapiji</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4B625B6A-54B1-536E-95AA-AAC8505607A1</referredTableID>
+<keyObject>6F8A4C85-F0F0-7C53-252E-A9F6430306F1</keyObject>
+<referredKeyID>6F8A4C85-F0F0-7C53-252E-A9F6430306F1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>lekovi_terapija_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D969E41C-7852-CBED-2107-7B2245802184" name="Lekovi_izdati_u_proceduri">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:16:03 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_66</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lek_procedura_id" id="30988EB8-A8CD-7604-3E7A-2CD01F222B48">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:18:02 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_davanja_leka" id="4F5B2228-FA5D-3EBE-6FA2-66445B363462">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:18:02 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina" id="0D132F93-FDCE-8D7D-578C-05DC6A01E074">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:18:02 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lek_lek_id" id="B2E2CB64-E0F0-2182-3734-CEADBDF59C61">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:18:17 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="760D3604-188E-63B0-0386-AB47A13B2947" referredColumn="EB5768F8-E4D9-595B-2BBC-79926D73C8A5"/>
+</associations>
+</Column>
+<Column name="Izvrsenje_procedure_id_izvrsenja" id="EB29F322-D8BE-78C8-80F3-66C334A9E75C">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:36:53 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3AD296F-6B53-E3F6-05B5-E220FBB296DD" referredColumn="A3FD10DE-4064-7790-6F52-FAB3CD29567D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C7DABD6-6D3F-387E-83C1-1B1EBA8CC4E3" name="Lekovi_izdati_u_proceduri_PK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:18:02 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30988EB8-A8CD-7604-3E7A-2CD01F222B48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="175AE58A-A600-4858-3460-4FB09F48B4C7" name="Lekovi_izdati_u_proceduri_Lek_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:18:17 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2E2CB64-E0F0-2182-3734-CEADBDF59C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="258784A0-E37F-72C1-495D-EBCB7D548D16" name="Lekovi_izdati_u_proceduri_Izvrsenje_procedure_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 12:36:53 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB29F322-D8BE-78C8-80F3-66C334A9E75C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

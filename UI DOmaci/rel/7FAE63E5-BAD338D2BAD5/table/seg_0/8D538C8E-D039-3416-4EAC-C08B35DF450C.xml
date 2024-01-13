@@ -71,9 +71,9 @@
 <colAssociation fkAssociation="8224DF6C-DD23-AE43-6E55-EED7D2AE8748" referredColumn="891DB041-2AE7-0CCA-23C3-1F904D8FDB26"/>
 </associations>
 </Column>
-<Column name="Prijem_prijem_id" id="E90A358B-6984-3BA3-073F-C61D64B0FCF1">
+<Column name="tip_izvestaja_tip_izvestaja_id" id="BC661AA0-2077-49BD-2766-80C3255E0724">
 <createdBy>stefa</createdBy>
-<createdTime>2023-10-23 20:23:00 UTC</createdTime>
+<createdTime>2023-11-13 21:40:53 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -82,7 +82,21 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D5A60579-BD8A-E6BC-1597-3E193B031AC5" referredColumn="6B27A531-EE9B-DEA2-E823-96BF741F2D1C"/>
+<colAssociation fkAssociation="997C623C-505B-380D-2BEF-B7FB2F9A0587" referredColumn="97D8A387-394C-D335-E9D8-AA45E1A5A89C"/>
+</associations>
+</Column>
+<Column name="Dijagnoza_dijagnoza_id" id="B96CF83F-EBFB-AD9B-1FBB-FA45D1CB5A3C">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-13 21:54:39 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="336E842F-D64F-56F3-ACF1-D39A6FBB6443" referredColumn="12070CDF-08E0-56B4-2371-45D74C3489F5"/>
 </associations>
 </Column>
 </columns>
@@ -128,14 +142,24 @@
 <colUsage columnID="BE21FF55-22BC-9E58-8413-66136F604E31"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B274F8E2-7317-EC26-BCE6-F3E07140C739" name="Izvestaj_Prijem_FK">
+<ind_PK_UK id="98BA1678-6A34-DFB2-3296-2AB6CAC13F25" name="Izvestaj_tip_izvestaja_FK">
 <createdBy>stefa</createdBy>
-<createdTime>2023-10-23 20:23:00 UTC</createdTime>
+<createdTime>2023-11-13 21:40:53 UTC</createdTime>
 <ownerDesignName>UI DOmaci</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E90A358B-6984-3BA3-073F-C61D64B0FCF1"/>
+<colUsage columnID="BC661AA0-2077-49BD-2766-80C3255E0724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6639C00C-EA49-634C-6815-CEEB807D5185" name="Izvestaj_Dijagnoza_FK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-11-13 21:54:39 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B96CF83F-EBFB-AD9B-1FBB-FA45D1CB5A3C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E926F88-F00E-C0E0-88A1-D4D3CEFCF97A" name="Interni_prenos_leka">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:13:14 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_77</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prenos_leka_id" id="C9B27229-CF09-3213-76F1-F49A109AA114">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:14:11 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="37239F59-A8FF-2ED3-BFE2-639750EB964D">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:14:11 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iz_skladista" id="5335477B-0C51-482A-7799-F303371AC3BB">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:14:22 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F285B18-DABB-0D08-3C5B-E5726F82CBD1" referredColumn="A149177B-C30D-E707-FA4A-396A157D0CB7"/>
+</associations>
+</Column>
+<Column name="u_skladiste" id="EA711C8A-1802-31A0-03D9-CCE1CA083500">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:14:28 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A916EA85-6DC6-40B0-C027-3055E2EB490B" referredColumn="A149177B-C30D-E707-FA4A-396A157D0CB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43645A67-3F5D-A0ED-72A7-63042B4093BB" name="Interni_prenos_leka_Bolnicko_skladiste_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:14:22 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5335477B-0C51-482A-7799-F303371AC3BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="583154FB-6331-9A34-CF05-0F1E911628E2" name="Interni_prenos_leka_Bolnicko_skladiste_FKv2">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:14:28 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA711C8A-1802-31A0-03D9-CCE1CA083500"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

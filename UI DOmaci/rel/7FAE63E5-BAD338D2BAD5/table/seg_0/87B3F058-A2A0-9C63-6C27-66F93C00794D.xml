@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87B3F058-A2A0-9C63-6C27-66F93C00794D" name="Nabavka_materijala">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-11 22:11:11 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<ordsAlias>table_74</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nabavka_mat_id" id="4F636DF8-4264-E81C-3C01-0C54B538AE6C">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-11 22:11:51 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_nabavke" id="3D624ED1-F88C-3774-6D2D-CE008ACDFCFE">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-11 22:11:51 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ukupna_cena" id="FA077904-472C-647C-9345-9B9FE7476A0E">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-11 22:11:51 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bolnicko_skladiste_bolnicko_skladiste_id" id="0B83C825-ABDA-50E2-C9E8-8591F0EF955B">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:10:35 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28FBB4EE-ECE6-E753-5961-A59ACE920AC8" referredColumn="A149177B-C30D-E707-FA4A-396A157D0CB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1180D365-1C39-8C0A-10FA-12E07E97383E" name="Nabavka_materijala_PK">
+<createdBy>stefa</createdBy>
+<createdTime>2023-12-11 22:11:51 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F636DF8-4264-E81C-3C01-0C54B538AE6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB5A488A-250D-79CE-2A1E-FECB844D49DA" name="Nabavka_materijala_Bolnicko_skladiste_FK">
+<createdBy>Micko</createdBy>
+<createdTime>2023-12-19 13:10:35 UTC</createdTime>
+<ownerDesignName>UI DOmaci</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B83C825-ABDA-50E2-C9E8-8591F0EF955B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
